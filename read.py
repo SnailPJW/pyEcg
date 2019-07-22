@@ -13,7 +13,7 @@ for row in rows:
     # print ("time = ", row[1])
     # print ("length = ", row[2])
     # print ("date = ", row[3])
-    # print ("ecg = ", row[4])
+    print ("ecg = ", np.frombuffer(row[4], dtype=np.float32),"\n")
     # print ("qrs = ", row[5])
     # print ("beat = ", row[6])
 #     print ("feature = ", row[7].hex())
@@ -22,6 +22,6 @@ for row in rows:
     # print ("scale = ", row[10],"\n")
     # print ("parameter = ", binascii.hexlify(row[11]))
 #     print("parameter = ",float.fromhex(row[11].hex()),"\n" )
-      print("parameter = ", np.frombuffer(row[11], dtype=np.float32),"\n" )
+    #   print("parameter = ", np.frombuffer(row[11], dtype=np.float32),"\n" )
         
 db_connection.close()

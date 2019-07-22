@@ -10,4 +10,4 @@ ref:
 1. Working with Binary Data in Python (https://www.devdungeon.com/content/working-binary-data-python)
 2. https://www.scadacore.com/tools/programming-calculators/online-hex-converter/
 3. https://gregstoll.com/~gregstoll/floattohex/
-
+4. Reading a Blob from SQLite database(https://www.reddit.com/r/learnpython/comments/98u08d/reading_a_blob_from_sqlite_database/)

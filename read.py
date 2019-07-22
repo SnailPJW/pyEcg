@@ -1,6 +1,7 @@
 # 引入 sqlite 套件
 import sqlite3
-import binascii
+import struct
+# import binascii
 
 
 #定義資料庫位置
@@ -16,10 +17,10 @@ for row in rows:
     # print ("ecg = ", row[4])
     # print ("qrs = ", row[5])
     # print ("beat = ", row[6])
-    print ("feature = ", row[7].hex())
-    print ("measurement = ", row[8].hex())
-    print ("marker = ", row[9].hex())
+#     print ("feature = ", row[7].hex())
+#     print ("measurement = ", row[8].hex())
+#     print ("marker = ", row[9].hex())
     # print ("scale = ", row[10],"\n")
     # print ("parameter = ", binascii.hexlify(row[11]))
-    print("parameter = ",row[11].hex(),"\n" )
+    print("parameter = ",struct.unpack('!f', row[11].hex().decode('hex'))[0],"\n" )
 db_connection.close()

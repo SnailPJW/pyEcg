@@ -1,11 +1,10 @@
 # 引入 sqlite 套件
 import sqlite3
-import struct
-# import binascii
+import numpy as np
 
 
 #定義資料庫位置
-conn = sqlite3.connect('database.db') # ~代表路徑
+conn = sqlite3.connect('database.db')
 db_connection = conn.cursor()
 #t查詢數據
 rows = db_connection.execute("SELECT serialno,time,length,date,ecg,qrs,beat,feature,measurement,marker,scale,parameter FROM Records;")
@@ -23,6 +22,6 @@ for row in rows:
     # print ("scale = ", row[10],"\n")
     # print ("parameter = ", binascii.hexlify(row[11]))
 #     print("parameter = ",float.fromhex(row[11].hex()),"\n" )
-      print("parameter = ", struct.unpack('<f', row[11].read(4)),"\n" )
+      print("parameter = ", np.frombuffer(row[11], dtype=np.float32),"\n" )
         
 db_connection.close()

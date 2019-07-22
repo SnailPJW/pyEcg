@@ -22,6 +22,7 @@ for row in rows:
 #     print ("marker = ", row[9].hex())
     # print ("scale = ", row[10],"\n")
     # print ("parameter = ", binascii.hexlify(row[11]))
-    print("parameter = ",float.fromhex(row[11].hex()),"\n" )
-    
+#     print("parameter = ",float.fromhex(row[11].hex()),"\n" )
+      print("parameter = ", struct.unpack('<f', row[11]),"\n" )
+        
 db_connection.close()

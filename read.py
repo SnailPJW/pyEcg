@@ -29,3 +29,5 @@ for row in rows:
     List_Ecg_Signal.append(np.frombuffer(row[4], dtype='<f4'))
         
 db_connection.close()
+
+plt.plot(List_Ecg_Signal)

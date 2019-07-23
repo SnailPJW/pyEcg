@@ -2,7 +2,7 @@
 import sqlite3
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
+# %matplotlib inline
 
 #定義資料庫位置
 conn = sqlite3.connect('database.db')
@@ -51,4 +51,4 @@ x, y = random_plots()
 ax2.plot(x, y)
 
 plt.tight_layout()
-# plt.show()
+plt.show()

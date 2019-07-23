@@ -2,7 +2,7 @@
 1. Reading and plotting informations record data. (https://www.pybytes.com/pywfdb/example-drawing.html)
 2. BioSPPy - Biosignal Processing in Python. (https://pypi.org/project/biosppy/)
 
-Colab notebook: https://colab.research.google.com/drive/1FApOpMx5-v4ET4PZwfZfu0htEodogadQ
+Colab notebook: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7
 
 Float - Little Endian (DCBA)
 

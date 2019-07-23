@@ -1,6 +1,7 @@
 # pyEcg
 1. Reading and plotting informations record data. (https://www.pybytes.com/pywfdb/example-drawing.html)
 2. BioSPPy - Biosignal Processing in Python. (https://pypi.org/project/biosppy/)
+3. Machine Learning for medicine: QRS detection in a single channel ECG signal (Part 1: data-set creation) (https://medium.com/@roszcz/machine-learning-for-medicine-qrs-detection-in-a-single-channel-ecg-signal-part-1-data-set-be36f70bbd38)
 
 Colab notebook: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7
 

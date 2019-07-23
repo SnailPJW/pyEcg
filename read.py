@@ -1,11 +1,14 @@
 # 引入 sqlite 套件
 import sqlite3
 import numpy as np
-
+import matplotlib.pyplot as plt
 
 #定義資料庫位置
 conn = sqlite3.connect('database.db')
 db_connection = conn.cursor()
+
+List_Ecg_Signal = []          ## 空列表
+
 #t查詢數據
 rows = db_connection.execute("SELECT serialno,time,length,date,ecg,qrs,beat,feature,measurement,marker,scale,parameter FROM Records;")
 for row in rows:
@@ -23,5 +26,6 @@ for row in rows:
     # print ("parameter = ", binascii.hexlify(row[11]))
 #     print("parameter = ",float.fromhex(row[11].hex()),"\n" )
     #   print("parameter = ", np.frombuffer(row[11], dtype=np.float32),"\n" )
+    List_Ecg_Signal.append(np.frombuffer(row[4], dtype='<f4'))
         
 db_connection.close()

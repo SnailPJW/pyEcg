@@ -17,7 +17,7 @@ for row in rows:
     # print ("time = ", row[1])
     # print ("length = ", row[2])
     # print ("date = ", row[3])
-    print ("ecg = ", np.frombuffer(row[4], dtype='<f4'),"\n")
+#     print ("ecg = ", np.frombuffer(row[4], dtype='<f4'),"\n")
     # print ("qrs = ", row[5])
     # print ("beat = ", row[6])
 #     print ("feature = ", row[7].hex())

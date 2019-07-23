@@ -1,4 +1,6 @@
 # pyEcg
+demo:
+![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png)
 
 1. Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network (https://stanfordmlgroup.github.io/projects/ecg2/)
 2. wfdb-python (https://github.com/MIT-LCP/wfdb-python)
@@ -23,5 +25,3 @@ ref:
 4. Reading a Blob from SQLite database(https://www.reddit.com/r/learnpython/comments/98u08d/reading_a_blob_from_sqlite_database/)
 5. convert binary string to numpy array (https://stackoverflow.com/questions/11760095/convert-binary-string-to-numpy-array)
 
-demo:
-![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png)

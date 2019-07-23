@@ -16,4 +16,4 @@ ref:
 5. convert binary string to numpy array (https://stackoverflow.com/questions/11760095/convert-binary-string-to-numpy-array)
 
 demo:
-![demo ecg figure]https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png
+![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png)

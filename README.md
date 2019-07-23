@@ -1,4 +1,5 @@
 # pyEcg
+Reading and plotting informations record data. (https://www.pybytes.com/pywfdb/example-drawing.html)
 
 Colab notebook: https://colab.research.google.com/drive/1FApOpMx5-v4ET4PZwfZfu0htEodogadQ
 

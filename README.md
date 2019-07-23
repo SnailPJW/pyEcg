@@ -1,4 +1,11 @@
 # pyEcg
+
+1. Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network (https://stanfordmlgroup.github.io/projects/ecg2/)
+2. wfdb-python (https://github.com/MIT-LCP/wfdb-python)
+3. EEGrunt update: Analyze heart rate and HRV with Python (http://www.autodidacts.io/analyze-ecg-heart-rate-and-hrv-with-python-and-eegrunt/)
+
+
+------
 1. Reading and plotting informations record data. (https://www.pybytes.com/pywfdb/example-drawing.html)
 2. BioSPPy - Biosignal Processing in Python. (https://pypi.org/project/biosppy/)
 3. Machine Learning for medicine: QRS detection in a single channel ECG signal (Part 1: data-set creation) (https://medium.com/@roszcz/machine-learning-for-medicine-qrs-detection-in-a-single-channel-ecg-signal-part-1-data-set-be36f70bbd38)

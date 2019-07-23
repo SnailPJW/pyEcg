@@ -14,3 +14,6 @@ ref:
 3. https://gregstoll.com/~gregstoll/floattohex/
 4. Reading a Blob from SQLite database(https://www.reddit.com/r/learnpython/comments/98u08d/reading_a_blob_from_sqlite_database/)
 5. convert binary string to numpy array (https://stackoverflow.com/questions/11760095/convert-binary-string-to-numpy-array)
+
+demo:
+![demo ecg figure]https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png

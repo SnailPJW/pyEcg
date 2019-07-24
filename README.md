@@ -6,7 +6,7 @@ Steps:
 
 | 步驟 | 指令 | 說明 |
 | --- | --- | --- |
-| 1. | 無 | Open Colab (Click this: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7) |
+| 1. | 無 | Open Colab (Click this: https://colab.research.google.com/drive/1RH0_pu6y496kxf4HVxyCW3bcpUTQd2Tn) |
 | 2. | !ls | 來查看目前工作目錄下有哪些東西(第一次執行應該會看到當下目錄下有一個資料夾為"sample_data") |
 | 3. | !mkdir demo | 新增一個名為 demo 的資料夾 |
 |  . | %cd demo | 目前工作目錄的指標移動到指向 demo 資料夾 |

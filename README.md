@@ -3,11 +3,12 @@ demo:
 ![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png)
 
 Steps:
-|步驟|指令|說明|
-|---|-----|------------------------|
-|1.| 無 |Open Colab (Click this: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7)|
-|2.| !ls |來查看目前工作目錄(第一次執行應該會看到當下目錄下有一個資料夾為"sample_data")|
-|3.| ! | 1000 |  800 | Castle Age building x 2   |
+
+| 步驟 | 指令 | 說明 |
+| --- | ----- | ------------------------ |
+| 1. | 無 | Open Colab (Click this: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7) |
+| 2. | !ls | 來查看目前工作目錄(第一次執行應該會看到當下目錄下有一個資料夾為"sample_data") |
+| 3. | ! | xxx |
 
 | First Header  | Second Header |
 | ------------- | ------------- |

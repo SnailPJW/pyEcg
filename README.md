@@ -3,12 +3,16 @@ demo:
 ![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/ecgDEMO.png)
 
 Steps:
-步驟|指令|說明|
----|-----|------------------------
-1.| 無 |Open Colab (Click this: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7)
-2.| !ls |來查看目前工作目錄(第一次執行應該會看到當下目錄下有一個資料夾為"sample_data")
-3.| ! | 1000 |  800 | Castle Age building x 2   
+|步驟|指令|說明|
+|---|-----|------------------------|
+|1.| 無 |Open Colab (Click this: https://colab.research.google.com/drive/102mbO8D0gSgqZerBUkQ3RrdShPBU9QG7)|
+|2.| !ls |來查看目前工作目錄(第一次執行應該會看到當下目錄下有一個資料夾為"sample_data")|
+|3.| ! | 1000 |  800 | Castle Age building x 2   |
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ------
 Research:
@@ -20,9 +24,7 @@ Research:
 2. BioSPPy - Biosignal Processing in Python. (https://pypi.org/project/biosppy/)
 3. Machine Learning for medicine: QRS detection in a single channel ECG signal (Part 1: data-set creation) (https://medium.com/@roszcz/machine-learning-for-medicine-qrs-detection-in-a-single-channel-ecg-signal-part-1-data-set-be36f70bbd38)
 ------
-線上 Project Trace: https://airtable.com/invite/l?inviteId=invDOs6OmTjEMhG2u&inviteToken=4e9a222c3cbaa7c58f5135a58975ae285ca38ba022f5eb4d897e516f234f987b
-------
-ref:
+Ref:
 1. Working with Binary Data in Python (https://www.devdungeon.com/content/working-binary-data-python)
 2. https://www.scadacore.com/tools/programming-calculators/online-hex-converter/
 3. https://gregstoll.com/~gregstoll/floattohex/

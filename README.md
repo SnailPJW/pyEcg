@@ -24,6 +24,7 @@ Research:
 1. Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network (https://stanfordmlgroup.github.io/projects/ecg2/)
 2. wfdb-python (https://github.com/MIT-LCP/wfdb-python)
 3. EEGrunt update: Analyze heart rate and HRV with Python (http://www.autodidacts.io/analyze-ecg-heart-rate-and-hrv-with-python-and-eegrunt/)
+4. PhysioBank Databases (http://www.physionet.org/physiobank/database/)
 ------
 1. Reading and plotting informations record data. (https://www.pybytes.com/pywfdb/example-drawing.html)
 2. BioSPPy - Biosignal Processing in Python. (https://pypi.org/project/biosppy/)

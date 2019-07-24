@@ -12,11 +12,11 @@ Steps:
 |  . | %cd demo | 目前工作目錄的指標移動到指向 demo 資料夾 |
 |  . | !pwd | 查看目前工作目錄為何 |
 | 4. | !git clone $url_git_HTTPS | 下載此份專案到目前工作目錄下 |
-|  . | ! | xxx |
-|  . | ! | xxx |
-|  . | ! | xxx |
-|  . | ! | xxx |
-|  . | ! | xxx |
+|  . | !ls | 可以看到目前工作目錄下出現了 pyEcg 資料夾 |
+|  . | %cd pyEcg | 移動到 pyEcg 資料夾中 |
+|  . | !ls | 可以看到專案中的所有檔案了，包括 sqlite 的DB檔案 |
+| 5. | 無 | 執行 cell 中的 python 程式碼就可以看到 Output 結果 |
+|  . | 無 | xxx |
 
 
 ------

@@ -1,6 +1,6 @@
 # pyEcg
 demo:
-![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/EcgGrid.png)
+![demo ecg figure](https://github.com/SnailPJW/pyEcg/blob/master/EcgGrid.PNG)
 
 Steps:
 
